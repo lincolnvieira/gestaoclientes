@@ -1,0 +1,8 @@
+CREATE PROCEDURE sp_buscar
+(
+	@ID INT 
+)
+AS
+BEGIN
+	SELECT * FROM Cliente WHERE ClienteId = @ID
+END;
